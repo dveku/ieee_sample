@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.menu_bar {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(14, 118, 237);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    padding: 5px;
+}
+
+.logo a {
+    padding-right: 5px;
+}
+
+.logo span {
+    color: rgb(30, 3, 83);
+}
+
+.menu_bar-list ul li {
+    text-decoration: none;
+    padding-top: 30px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.menu_bar-list ul li a {
+    text-decoration: none;
+    color: white;
+}
