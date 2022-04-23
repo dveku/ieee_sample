@@ -21,6 +21,10 @@ body {
     padding-right: 5px;
 }
 
+.logo:hover a {
+    cursor: pointer;
+}
+
 .logo span {
     color: rgb(30, 3, 83);
 }
@@ -36,4 +40,8 @@ body {
 .menu_bar-list ul li a {
     text-decoration: none;
     color: white;
+}
+
+.menu_bar-list ul li:hover a {
+    cursor: pointer;
 }
