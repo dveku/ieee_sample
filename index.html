@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IEEE-SJCE
     </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,12 +24,44 @@
         <div class="menu_bar-list">
             <ul type="none" style="display:flex">
                 <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">BOARDS</a></li>
-                <li><a href="#">SOCIETIES</a></li>
-                <li><a href="#">TEAM</a></li>
+                <li><a href="#">BOARDS</a>
+                    <div class="dropdown_menu">
+                        <ul type="none">
+                            <li>WEB-DEVELOPMENT BOARD</li>
+                            <li>EDITORIAL BOARD</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">SOCIETIES</a>
+                    <div class="dropdown_menu">
+                        <ul type="none">
+                            <li>STUDENT BRANCH</li>
+                            <li>ELECTRON DEVICES SOCIETY</li>
+                            <li>WOMEN IN ENGINEERING</li>
+                            <li>ROBOTICS AND AUTOMATION SOCIETY</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">TEAM</a>
+                    <div class="dropdown_menu">
+                        <ul type="none">
+                            <li>EXECUTIVE COMMITTEE</li>
+                            <li>MEMBERSHIP COMMITTEE</li>
+                            <li>SOCIETIES</li>
+                            <li>BOARDS</li>
+                        </ul>
+                    </div>
+                </li>
                 <li><a href="#">GALLERY</a></li>
                 <li><a href="#">CONTACT</a></li>
-                <li><a href="#">FESTS</a></li>
+                <li class="last"><a href="#">FESTS<i class="fas fa-caret-down"></i>
+                    <div class="dropdown_menu">
+                        <ul type="none">
+                            <li>CYBERIA</li>
+                            <li>TUXEDO</li>
+                        </ul>
+                    </div></a>
+                </li>
             </ul>
         </div>
 
