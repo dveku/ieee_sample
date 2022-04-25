@@ -110,6 +110,11 @@ body {
     transition: all 0.5s;
 }
 
+
+/* -------------------------------------------------------------
+dropdown menu
+---------------------------------------------------------------- */
+
 .dropdown_menu ul {
     display: block;
     margin: 1px;
@@ -128,4 +133,13 @@ body {
 .dropdown_menu ul li:hover {
     color: var(--primary);
     cursor: pointer;
+}
+
+.dropdown_menu ul li a {
+    color: black;
+}
+
+.dropdown_menu ul li a:hover {
+    cursor: pointer;
+    color: var(--primary);
 }
