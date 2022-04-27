@@ -360,3 +360,22 @@ dropdown menu
 .heading h1 {
     font-size: 100px;
 }
+
+
+/* --------------------------------------------------------------
+                   heading text 
+    -------------------------------------------------------------*/
+
+.welcome {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: columns;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.type {
+    display: flex
+}
